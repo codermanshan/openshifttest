@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Website</title>
+    <style>
+        /* CSS styles */
+        #myHeading {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="myHeading">Welcome to My Website</h1>
+    <button onclick="changeText()">Click Me</button>
+
+    <script>
+        // JavaScript function
+        function changeText() {
+            var heading = document.getElementById("myHeading");
+            heading.innerHTML = "Text Changed!";
+        }
+    </script>
+</body>
+</html>
